@@ -1,0 +1,102 @@
+*{margin:0px;
+padding:0px;
+}
+body{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 100, 0.5)), url(file:///C|/Users/NiralaTech/Desktop/Tour/img/8.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	width:100%;
+	z-index: -10;
+	height: 1500px;
+	
+	
+	}
+.navbar{
+	background-color:#F96;
+	opacity:0.8;
+	border-bottom:1px double #000000;
+	}
+.navbar-nav li a{
+	color:#FFF;
+	}
+.navbar-nav li a:hover{
+	color:#f96;
+	background-color:#FFF;
+
+	}
+.navbar-brand{
+	color:#FFF;
+	}
+.icon-bar{
+	background-color:#FFF;
+	}
+.navbar-nav li.active, navbar li.active a{
+	background-color: #CF3;
+	color:#F00;
+	}
+.get{
+	padding:5px;
+	background-color:#0F0;
+	font-size:20px;
+	border-radius:8px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left:50px;
+	}
+
+.animation {
+	animation: typing-text 2s steps(24), blink 0.5s infinite alternate;
+	overflow: hidden;
+	white-space: nowrap;
+	color:#FFF;
+	border-right: 3px solid #000;
+	text-align:center;
+}
+
+@keyframes typing-text {
+	from {
+		width: 0;
+	}
+	to {
+		width: 24ch;
+	}
+}
+
+@keyframes blink {
+	from {
+		border-color: transparent;
+	}
+	to {
+		border-color: #000;
+	}
+}
+.feature{
+	background-color:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 100, 0.5)),#FFF;
+	border:1px solid #00F;
+	border-radius:50px;}
+.feature h2{
+	color:#C90;
+	margin-left:30px;
+	}
+.feature p{
+	color:#FFF;
+	margin-left:50px;}
+.top{
+	background-color: #CCC;
+	margin-top:30px;
+	height:500px;
+	}
+.top h2{
+	color: #FFF;
+	text-align:center;
+	background-color:#C60;
+	border-radius:50%;
+	font-size:40px;
+
+}
+.btn{
+	margin-left:80px;
+	color:#FFF;
+	padding:10px;
+	background-color:#03F;}
+
