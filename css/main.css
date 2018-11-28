@@ -15,6 +15,7 @@ body{
 .navbar{
 	background-color:#F96;
 	opacity:0.8;
+	font-size:15px;
 	border-bottom:1px double #000000;
 	}
 .navbar-nav li a{
@@ -84,13 +85,12 @@ body{
 .top{
 	background-color: #CCC;
 	margin-top:30px;
-	height:500px;
+	height: auto;
 	}
 .top h2{
 	color: #FFF;
 	text-align:center;
 	background-color:#C60;
-	border-radius:50%;
 	font-size:40px;
 
 }
@@ -117,6 +117,8 @@ a.outbound-bg:hover{ color:#FF0; text-decoration:none; }
 .theme-text .theme-package-hdg{ font-size:20px; color:#fff; padding:5px 0 5px 10px; }
 .theme-text .theme-package-explore{ font-size:16px; color:#fff; padding-bottom:5px; text-decoration:none; padding:0 0 5px 10px; }
 .theme-text a:hover .theme-package-hdg{color:#fff225 !important;}
+
+
 
 
 

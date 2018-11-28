@@ -10,9 +10,35 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/footer.css">
+        <script src="js/vendor/galleryslider.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+ 
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
+    <style>
+   
+		
+    
+  .hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+    </style>
+    
+    
+    
+    
     <body>
      <nav class="navbar">
        <div class="container">
@@ -28,7 +54,7 @@
        </div>
        <div class="collapse navbar-collapse" id="nav1">
        <ul class="nav navbar-nav navbar-right">
-       <li class="active"><a href="index.html">Home</a></li>
+       <li><a href="index.html">Home</a></li>
        <li><a href="About.html">About</a></li>
          <li><a href="Domestic.html">Domestic</a></li>
            <li><a href="best time to visit.html">Best Time To Visit</a></li>
@@ -42,7 +68,7 @@
              </ul>
              </li>
            <li><a href="international.html">International</a></li>
-       <li><a href="gallery.html">Gallery</a></li>
+       <li class="active"><a href="gallery.html">Gallery</a></li>
        <li><a href="contact.html">Contact</a></li>
        <li class="get btn-info"><a href="query.html">Get Quote</a></li>
        </ul>
@@ -51,6 +77,209 @@
          </nav>
  </div>
  </div>
+ 
+
+ <!-- Page Content -->
+   
+<div class="container">
+    <div id="main_area">
+        <!-- Slider -->
+        <div class="row">
+            <div class="col-sm-6" id="slider-thumbs">
+                <!-- Bottom switcher of slider -->
+                <ul class="hide-bullets">
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-0">
+                            <img src="img/amritsar-tour-853.jpeg">
+                        </a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-1">
+                        <img src="img/24-800x600.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-2"><img src="img/Ahemdabad.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-3"><img src="img/Amazing-Thailand-Tour.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-4"><img src="img/australia.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-5"><img src="img/bangkok.jpg"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-6"><img src="img/chardham_big.png"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-7"><img src="img/darjeeling.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-8"><img src="img/delhi.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-9"><img src="img/Dubai-skyline.jpg"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-10"><img src="img/golden triangle packages.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-11"><img src="img/flight-tickets-booking.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-12"><img src="img/gujarat-tour-package.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-13"><img src="img/malaysia-hotels-copy.jpg"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-14"><img src="img/shimla.jpeg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-15"><img src="img/manali.jpg"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-xs-12" id="slider">
+                    <!-- Top part of the slider -->
+                    <div class="row">
+                        <div class="col-sm-12" id="carousel-bounding-box">
+                            <div class="carousel slide" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                        <img src="img/international-tours-europe.jpg"></div>
+
+                                    <div class="item" data-slide-number="1">
+                                        <img src="img/manali (1).jpg"></div>
+
+                                    <div class="item" data-slide-number="2">
+                                        <img src="img/singapore_img-800x600.jpg"></div>
+
+                                    <div class="item" data-slide-number="3">
+                                        <img src="img/malaysia-hotels-copy.jpg"></div>
+
+                                    <div class="item" data-slide-number="4">
+                                        <img src="img/rajsthan.jpg"></div>
+
+                                    <div class="item" data-slide-number="5">
+                                        <img src="http://placehold.it/470x480&text=5"></div>
+                                    
+                                    <div class="item" data-slide-number="6">
+                                        <img src="img/Ahemdabad.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="7">
+                                        <img src="img/fazenda-praia-do-forte-BRAZILINC0716.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="8">
+                                        <img src="img/Amazing-Thailand-Tour.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="9">
+                                        <img src="img/manali.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="10">
+                                        <img src="img/Europe-copy.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="11">
+                                        <img src="img/Madhya-Pradesh.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="12">
+                                        <img src="img/kerala.jpg"></div>
+
+                                    <div class="item" data-slide-number="13">
+                                        <img src="img/singapore.jpg"></div>
+
+                                    <div class="item" data-slide-number="14">
+                                        <img src="http://placehold.it/470x480&text=14"></div>
+
+                                    <div class="item" data-slide-number="15">
+                                        <img src="img/8.jpg"></div>
+                                </div>
+                                <!-- Carousel nav -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Slider-->
+        </div>
+
+    </div>
+</div>
+
+ <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Information</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Product</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tourist</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Place</a></li>
+					
+					</ul>
+				</div>	<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Contact Info</h5>
+					<ul class="list-unstyled quick-links">
+						Laxmi Nagar Delhi NCR 
+                        +9123456780
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p class="h6">2018 &copy All right Reversed.<a class="text-green ml-2" href="https://www.JANKARIMEDIA.INFO" target="_blank">Tourism</a></p>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

@@ -14,6 +14,14 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
+    <style>
+    img {width:100%;
+	}
+	.s{
+		background-color:#FFF;
+		height:500px;
+		border-radius:10%;}
+    </style>
     <body>
      <nav class="navbar">
        <div class="container">
@@ -52,57 +60,74 @@
          </nav>
  </div>
  
- <div class="container register-form">
-            <div class="form">
-                <div class="note">
-                    <h1>Query Form</h1>
-                </div>
+ 
+<section class="testimonial py-5 s" id="testimonial">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-4 py-5 bg-primary text-white text-center ">
+                <div class=" ">
+                    <div class="card-body">
+                        <img src="img/flight-tickets-booking.jpg" style="width:50%">
+                        <h2 class="py-3">Get Query</h2>
+                        <p>Tation argumentum et usu, dicit viderer evertitur te has. Eu dictas concludaturque usu, facete detracto patrioque an per, lucilius pertinacia eu vel.
 
-                <div class="form-content">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Name *" value=""/>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone Number *" value=""/>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email" value="">
-                            </div>
-                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Where - To *" value=""/>
-                            </div>
-                            <div class="form-group">
-                              
-                              <label>Gender</label>
-                               <select>
-                               
-                                <option>Male</option>
-                                <option>Female</option>
-                               </select>
-                               
-                            </div>
-                             <div class="col-md-6">
-                            <div class="form-group">
-                         <label>Message</label>
-                         <textarea class="form-control">
-                               </textarea>
-                            </div>
-                        </div>
+</p>
                     </div>
-                    <button type="button" class="btnSubmit">Submit</button>
                 </div>
             </div>
-        </div>
- </section>
- 
- 
+            <div class="col-md-8 py-5 border">
+                <h4 class="pb-4">Please fill with your details</h4>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                      </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input id="Mobile No." name="Mobile No." placeholder="Mobile No." class="form-control" required type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                                  
+                                  <select id="inputState" class="form-control">
+                                    <option selected>Choose ...</option>
+                                    <option> New Buyer</option>
+                                    <option> Auction</option>
+                                    <option> Complaint</option>
+                                    <option> Feedback</option>
+                                  </select>
+                        </div>
+                        <div class="form-group col-md-12">
+                                  <textarea id="comment" name="comment" cols="40" rows="5" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                  <label class="form-check-label" for="invalidCheck2">
+                                    <small>By clicking Submit, you agree to our Terms & Conditions, Visitor Agreement and Privacy Policy.</small>
+                                  </label>
+                                </div>
+                              </div>
+                    
+                          </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <button type="button" class="btn btn-danger">Submit</button>
+                    </div>
+                </form>
  
  </div>
-
+ </div>
+        </div>
+    </div>
+</section>
  
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
